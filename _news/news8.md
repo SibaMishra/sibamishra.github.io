@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-08-24
+date: 2024-09-13
 inline: true
 ---
 
-Publicity Chair **[COCOLE 2022, NIT WARANGAL, India](https://ic-cocole.in/cocole2022/)**.
+Session Chair **[COCOLE 2024, NIT WARANGAL, India](https://ic-cocole.in/cocole2024/)**.
 
