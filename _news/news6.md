@@ -5,4 +5,4 @@ inline: true
 ---
 
 Delivered an invited virtual talk at ''FDP on scientific writing using Latex'' organized by MITS, Madanapalle, Andhra
-Pradesh, India. 
+Pradesh, India (https://https://mits.ac.in/). 
