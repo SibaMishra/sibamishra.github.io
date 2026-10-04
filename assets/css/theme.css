@@ -45,3 +45,29 @@ html[data-theme="dark"] .lang-select{color:#ececec;border-color:rgba(255,255,255
 body>.skiptranslate,iframe.skiptranslate,.goog-te-banner-frame,#goog-gt-tt,.goog-te-balloon-frame{display:none !important}
 body{top:0 !important}
 .goog-text-highlight{background:none !important;box-shadow:none !important}
+
+/* Publications: year and type switches */
+.pub-filters{margin:0 0 .5em}
+.pub-row{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 0 8px}
+.pub-label{font-size:13px;font-weight:bold;min-width:42px;color:#555}
+.pub-btn{font-size:13px;line-height:1.2;padding:4px 10px;border-radius:14px;border:1px solid rgba(0,0,0,.25);background:transparent;color:#222;cursor:pointer}
+.pub-btn:hover{background:rgba(0,0,0,.06)}
+.pub-btn.is-on{background:#222;border-color:#222;color:#fff}
+.pub-count{font-size:13px;color:#666;margin:.2em 0 .8em}
+.pub-list{list-style:none;margin:0;padding:0}
+.pub-list li{padding:.7em 0;border-bottom:1px solid rgba(0,0,0,.1);text-align:justify}
+.pub-list li[hidden]{display:none}
+.pub-tag{display:inline-block;font-size:11px;font-weight:bold;letter-spacing:.02em;padding:1px 8px;border-radius:4px;margin-right:4px;vertical-align:1px}
+.pub-tag-journal{background:#e6f1fb;color:#0c447c}
+.pub-tag-conference{background:#e1f5ee;color:#085041}
+.pub-tag-patent{background:#faeeda;color:#633806}
+.pub-year{font-size:12px;color:#777}
+html[data-theme="dark"] .pub-label{color:#bbb}
+html[data-theme="dark"] .pub-btn{color:#ececec;border-color:rgba(255,255,255,.3)}
+html[data-theme="dark"] .pub-btn:hover{background:rgba(255,255,255,.1)}
+html[data-theme="dark"] .pub-btn.is-on{background:#ececec;border-color:#ececec;color:#151515}
+html[data-theme="dark"] .pub-count,html[data-theme="dark"] .pub-year{color:#aaa}
+html[data-theme="dark"] .pub-list li{border-bottom-color:rgba(255,255,255,.12)}
+html[data-theme="dark"] .pub-tag-journal{background:#0c447c;color:#b5d4f4}
+html[data-theme="dark"] .pub-tag-conference{background:#085041;color:#9fe1cb}
+html[data-theme="dark"] .pub-tag-patent{background:#633806;color:#fac775}
