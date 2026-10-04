@@ -1,0 +1,164 @@
+# Activities page data. Newest first in each list.
+# kind sets the tag colour: talk, pc, chair, editor, review, volunteer
+# title (optional) is shown in quotes; everything here stays in English when translated.
+
+talks:
+  - date: Oct 2026
+    role: Expert talk
+    kind: talk
+    title: Unlocking Prompt Engineering from Tokens to RAG
+    event: IEEE Computer Society Chapter, Bhubaneswar Section, India
+  - date: Sep 2026
+    role: Resource person
+    kind: talk
+    event: "Online E & ICT Faculty Development Programme on Large Language Models for Generative AI: Foundations, Design and Applications (LLMGAI), NIT Warangal, India"
+  - date: Dec 2024
+    role: Invited speaker
+    kind: talk
+    title: Artificial Intelligence for Natural Language Software Requirements
+    event: "Online E & ICT Faculty Development Programme on Real World AI Applications: Bridging Academia and Industry, NIT Warangal with RNS Institute of Technology, Bengaluru, India"
+  - date: Mar 2021
+    role: Invited speaker
+    kind: talk
+    event: Faculty Development Programme on Scientific Writing using LaTeX, MITS, Madanapalle, Andhra Pradesh, India
+  - date: Oct 2020
+    role: Invited speaker
+    kind: talk
+    event: Faculty Development Programme on Scientific Writing using LaTeX, BGSBU, Rajouri, Jammu and Kashmir, India
+  - date: Mar 2018
+    role: Invited speaker
+    kind: talk
+    event: Scientific Writing using LaTeX, Technical Development Program by the SPIE Student Chapter, Department of Electronics Engineering, IIT (ISM) Dhanbad, India
+
+service:
+  - date: Oct 2026
+    role: PC member
+    kind: pc
+    event: 26th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2027), Hanoi, Vietnam
+  - date: Jun 2026
+    role: PC member
+    kind: pc
+    event: Agentic Software Engineering (SE 3.0), co-located with ACM KDD 2026, Jeju Island, South Korea
+  - date: Nov 2024
+    role: Technical and advisory committee
+    kind: pc
+    event: 2nd International Conference on Artificial Intelligence, Machine Learning & Intelligent Systems (ICAMS 2025), NIT Hamirpur, India
+  - date: Sep 2024
+    role: Session chair
+    kind: chair
+    event: International Conference on Computing, Communication and Learning (COCOLE 2024), NIT Warangal, India
+  - date: Aug 2022
+    role: Publicity chair
+    kind: chair
+    event: International Conference on Computing, Communication and Learning (COCOLE 2022), NIT Warangal, India
+  - date: Mar 2021
+    role: Publicity co-chair
+    kind: chair
+    event: 15th Innovations in Software Engineering Conference (ISEC 2022), DA-IICT Gandhinagar, India
+  - date: Nov 2016
+    role: Guest editor
+    kind: editor
+    event: Special Issue on Scalable Computing for Knowledge Discovery, International Journal of Knowledge Discovery in Bioinformatics (IJKDB), IGI Global
+
+volunteering:
+  - date: Jan 2020
+    role: Volunteer
+    kind: volunteer
+    event: "The Fourth Paradigm: From Data to Discovery, Bhopal, India"
+  - date: Mar 2016
+    role: Student volunteer
+    kind: volunteer
+    event: 3rd IEEE International Conference on Recent Advances in Information Technology (RAIT 2016), Dhanbad, India
+  - date: Mar 2014
+    role: Student volunteer
+    kind: volunteer
+    event: 2nd International Conference on Recent Advances in Information Technology (RAIT 2014), Dhanbad, India
+  - date: Feb 2011
+    role: Student volunteer
+    kind: volunteer
+    event: 7th International Conference on Distributed Computing and Information Technology (ICDCIT 2011), Bhubaneswar, India
+
+conference_reviewing:
+  - date: Sep 2026
+    role: External reviewer
+    kind: review
+    event: International Conference on Artificial Intelligence, Computer, Data Sciences and Applications, Rio de Janeiro, Brazil
+  - date: Jan 2026
+    role: Reviewer
+    kind: review
+    event: International Conference on Frontiers in Advanced Computing and Emerging Intelligent Technologies (FACEIT 2026), NIT Warangal, India
+  - date: Aug 2025
+    role: Invited reviewer
+    kind: review
+    event: International Conference on Cyber Security and Artificial Intelligence (ICCSAI 2025), Kolkata, India
+  - date: Aug 2025
+    role: Invited reviewer
+    kind: review
+    event: International Conference on Artificial Intelligence and Emerging Technologies (ICAIET 2025), XIM University, Bhubaneswar, India
+  - date: Jul 2025
+    role: Invited reviewer
+    kind: review
+    event: 1st International Conference on Power and Intelligent Control Systems (PICS 2025), NIT Hamirpur, India
+  - date: Mar 2025
+    role: Invited reviewer
+    kind: review
+    event: 6th International Conference on Recent Advances in Information Technology (RAIT 2025), IIT (ISM) Dhanbad, India
+  - date: Feb 2025
+    role: Invited reviewer
+    kind: review
+    event: 1st International Conference on Smart and Sustainable Developments in Electrical Engineering (SSDEE 2025), IIT (ISM) Dhanbad, India
+  - date: Feb 2025
+    role: Reviewer
+    kind: review
+    event: 2nd International Conference on Artificial Intelligence, Machine Learning & Intelligent Systems (ICAMS 2025), NIT Hamirpur, India
+  - date: Jan 2025
+    role: Reviewer
+    kind: review
+    event: 6th International Conference on Advances in Distributed Computing and Machine Learning (ICADCML 2025), NTUST, Taiwan
+  - date: Mar 2024
+    role: Reviewer
+    kind: review
+    event: International Conference on Cognitive, Green and Ubiquitous Computing (ICCGU 2024), C. V. Raman Global University, Bhubaneswar, India
+  - date: Jul 2023
+    role: Sub-reviewer
+    kind: review
+    event: 20th IEEE India Council International Conference (INDICON 2023), Warangal, India
+  - date: Aug 2022
+    role: Sub-reviewer
+    kind: review
+    event: 3rd International Conference on Advances in Distributed Computing and Machine Learning (ICADCML 2022), NIT Warangal, India
+  - date: Feb 2021
+    role: Sub-reviewer
+    kind: review
+    event: International Conference on VLSI & Microwave and Wireless Technologies (ICVMWT 2021), Prayagraj, India
+  - date: Dec 2015
+    role: Invited reviewer
+    kind: review
+    event: 3rd IEEE International Conference on Computing for Sustainable Global Development (INDIACom), New Delhi, India
+  - date: Jun 2014
+    role: External reviewer
+    kind: review
+    event: 2nd IEEE International Conference on Systems and Informatics (ICSAI 2014), Shanghai, China
+
+memberships:
+  - role: Senior Member
+    org: IEEE
+    since: 2025
+  - role: Professional Member
+    org: ACM
+    since: 2020
+  - role: Member
+    org: Internet Society (ISOC)
+    since: 2016
+  - role: Student Member
+    org: Advanced Computing & Communication Society (ACCS)
+    since: 2016
+  - role: Member
+    org: India SOFTware Engineering community (ISOFT)
+    since: 2015
+  - role: Member
+    org: International Association of Engineers (IAENG)
+    since: 2015
+  - role: Member
+    org: Computer Science Teachers Association (CSTA)
+    since: 2015

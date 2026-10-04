@@ -1,0 +1,7 @@
+<ol class="tl notranslate">
+{% for a in include.items %}  <li class="tl-item">
+    <span class="tl-date">{{ a.date }}</span>
+    <div class="tl-body"><span class="role role-{{ a.kind }}">{{ a.role }}</span>{% if a.title %}<span class="tl-title">“{{ a.title }}”</span>{% endif %}
+      <span class="tl-event">{{ a.event }}</span></div>
+  </li>
+{% endfor %}</ol>
