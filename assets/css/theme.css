@@ -179,3 +179,13 @@ html[data-theme="dark"] .album-item{border-color:rgba(255,255,255,.15);backgroun
 html[data-theme="dark"] .album-item figcaption span{color:#aaa}
 .term-filter{margin:.3em 0 .2em}
 .course[hidden]{display:none}
+
+/* Research page: institution and dates under each heading */
+.rs-meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:-.2em 0 .9em;font-size:16px;color:#444}
+.rs-meta .fa{color:#0b5394}
+.rs-date{display:inline-block;font-size:13px;font-weight:bold;font-family:sans-serif;padding:1px 10px;border-radius:12px;background:#e6f1fb;color:#0c447c}
+html[data-theme="dark"] .rs-meta{color:#ccc}
+html[data-theme="dark"] .rs-meta .fa{color:#7cc0ef}
+html[data-theme="dark"] .rs-date{background:#0c447c;color:#b5d4f4}
+.justify{text-align:justify;text-justify:inter-word}
+@media (max-width:599px){.justify{text-align:left}}

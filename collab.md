@@ -9,4 +9,4 @@ title: Collaborators
 <li><strong>Dr. Pradeep Kumar D S</strong>. Research Scientist, LTIMindtree, Chennai, India. </li>
 <li><strong>Tushar Kanta Panda</strong>. Senior Software Engineer, John Deere, Chicago, IL, United States. </li>
 </ol>
-{: style="text-align: justify !important;text-justify: inter-word"}
+{: .justify}
