@@ -10,6 +10,8 @@ modified: 9-20-20
 
 * Unnati Shah and <u>Siba Mishra</u>. 2026. **Adaptive QARM: LLM-Driven Context-Aware NFR Conflict Detection for Software Reliability**. *In: Proceedings of the 37th IEEE International Symposium on Software Reliability Engineering (ISSRE'2026), Limassol, Cyprus*, October 20–23, 2026. **(Accepted, to appear)**
 
+* Unnati Shah and <u>Siba Mishra</u>. May 2026. **Operationalization-Based Modeling of Software Non-Functional Requirement Relationships: A Context-Aware Approach**. *In: The International FLAIRS Conference Proceedings (FLAIRS'2026), Florida, USA* 39.1. <a target="_blank" href="https://doi.org/10.32473/flairs.39.1.141431"><span class="ai ai-doi-square ai-lg zoom" style="color:#000000" aria-hidden="true"></span></a>
+
 * <u>Siba Mishra</u>, Arpit Sharma. Feb. 2021. **A Generalized Semantic Filter for Glossary Term Extraction from Large-Sized Software Requirements**. *In: Proceedings of the 14th Innovations in Software Engineering Conference (Formerly Known as India Software Engineering Conference) (ISEC'2021), Bhubaneswar, India*, Article 4, pp. 1-9. <a target="_blank" href="https://doi.org/10.1145/3452383.3452387"><span class="ai ai-doi-square ai-lg zoom" style="color:#000000" aria-hidden="true"></span></a> 
 
 * <u>Siba Mishra</u>, Arpit Sharma. Feb. 2021. **Crawling Wikipedia Pages to Train Word Embeddings Model for Software Engineering Domain**. *In: Proceedings of the 14th Innovations in Software Engineering Conference (Formerly Known as India Software Engineering Conference) (ISEC'2021), Bhubaneswar, India*, Article 18, pp. 1-5. <a target="_blank" href="https://doi.org/10.1145/3452383.3452401"><span class="ai ai-doi-square ai-lg zoom" style="color:#000000" aria-hidden="true"></span></a> 
