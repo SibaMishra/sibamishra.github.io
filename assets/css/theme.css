@@ -203,6 +203,3 @@ html[data-theme="dark"] .rs-date{background:#0c447c;color:#b5d4f4}
 .ab-date{color:#555;white-space:nowrap}
 html[data-theme="dark"] .ab-date{color:#bbb}
 .article-wrap p.ab-block{margin-bottom:.35em;text-align:left}
-.visitor-counter{margin:8px 0 4px;text-align:center}
-.visitor-counter img{max-width:100%;height:auto;border:0}
-html[data-theme="dark"] .visitor-counter img{background:#fff;border-radius:4px;padding:3px}
