@@ -1,0 +1,40 @@
+/* Light / dark theme. Light mode keeps the original site look. */
+.theme-toggle{position:absolute;top:10px;right:10px;z-index:20;width:28px;height:28px;padding:0;border-radius:50%;border:1px solid rgba(0,0,0,.25);background:transparent;color:#222;font-size:14px;line-height:26px;text-align:center;cursor:pointer}
+.theme-toggle:hover{background:rgba(0,0,0,.06)}
+.theme-toggle:focus-visible{outline:2px solid #007bb6;outline-offset:2px}
+.navigation-wrapper{position:relative}
+.theme-toggle .fa-sun-o{display:none}
+html[data-theme="dark"] .theme-toggle .fa-sun-o{display:inline}
+html[data-theme="dark"] .theme-toggle .fa-moon-o{display:none}
+
+html[data-theme="dark"]{color-scheme:dark}
+html[data-theme="dark"] body{background-color:#151515;color:#dedede}
+html[data-theme="dark"] h1,html[data-theme="dark"] h2,html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,html[data-theme="dark"] h5,html[data-theme="dark"] h6,
+html[data-theme="dark"] strong,html[data-theme="dark"] b{color:#f2f2f2}
+html[data-theme="dark"] a{color:#7cc0ef}
+html[data-theme="dark"] a:hover{color:#a9d6f6}
+html[data-theme="dark"] .navigation-wrapper a,html[data-theme="dark"] .site-name a{color:#ececec}
+html[data-theme="dark"] .navigation-wrapper{border-bottom-color:#e05555}
+html[data-theme="dark"] .theme-toggle{color:#ececec;border-color:rgba(255,255,255,.35)}
+html[data-theme="dark"] .theme-toggle:hover{background:rgba(255,255,255,.1)}
+html[data-theme="dark"] .nav .navtoggle{background-color:#2a2a2a;color:#ececec}
+html[data-theme="dark"] .nav ul,html[data-theme="dark"] .nav li{background-color:transparent}
+html[data-theme="dark"] table,html[data-theme="dark"] tr,html[data-theme="dark"] td,html[data-theme="dark"] th,
+html[data-theme="dark"] .mytable1 tr:nth-child(odd),html[data-theme="dark"] .mytable1 tr:nth-child(even){background:transparent !important;color:#dedede;border-color:#3a3a3a}
+html[data-theme="dark"] hr{border-color:#3a3a3a}
+html[data-theme="dark"] blockquote{border-left-color:#555;color:#cfcfcf}
+html[data-theme="dark"] code,html[data-theme="dark"] pre{background-color:#222;color:#e6e6e6}
+html[data-theme="dark"] .footer-wrap,html[data-theme="dark"] footer{background-color:transparent;color:#bdbdbd}
+html[data-theme="dark"] [style*="color:#000000"],html[data-theme="dark"] [style*="color: #000000"],
+html[data-theme="dark"] [style*="color:#000;"],html[data-theme="dark"] [style*="color: initial"],
+html[data-theme="dark"] .author-social{color:#e6e6e6 !important}
+html[data-theme="dark"] .rv-badge{border-color:rgba(255,255,255,.15)}
+html[data-theme="dark"] .rv-badge .rv-l{background:#d3d1c7;color:#2c2c2a}
+html[data-theme="dark"] .rv-elsevier{background:#633806;color:#fac775}
+html[data-theme="dark"] .rv-springer{background:#0c447c;color:#b5d4f4}
+html[data-theme="dark"] .rv-nature{background:#085041;color:#9fe1cb}
+html[data-theme="dark"] .rv-wiley{background:#3c3489;color:#cecbf6}
+html[data-theme="dark"] .rv-igi{background:#712b13;color:#f5c4b3}
+html[data-theme="dark"] .rv-tandf{background:#72243e;color:#f4c0d1}
+html[data-theme="dark"] .rv-frontiers{background:#27500a;color:#c0dd97}

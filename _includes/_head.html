@@ -1,4 +1,9 @@
 <meta charset="utf-8">
+<script>
+(function(){try{var t=localStorage.getItem('theme');}catch(e){var t=null}
+if(t!=='light'&&t!=='dark'){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light'}
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
 
 
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
@@ -25,6 +30,7 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
+<link rel="stylesheet" href="{{ site.github.url }}/assets/css/theme.css">
 
 
 <meta http-equiv="cleartype" content="on">

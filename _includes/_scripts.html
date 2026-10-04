@@ -21,3 +21,10 @@
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}
+
+<script>
+(function(){var b=document.getElementById('theme-toggle');if(!b)return;
+b.addEventListener('click',function(){var r=document.documentElement;
+var t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);
+try{localStorage.setItem('theme',t)}catch(e){}});})();
+</script>
