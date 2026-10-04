@@ -1,6 +1,12 @@
 <div class="navigation-wrapper">
+	<select class="lang-select notranslate" id="lang-select" aria-label="Language" title="Language">
+		<option value="en">English</option>
+		<option value="hi">हिन्दी</option>
+		<option value="or">ଓଡ଼ିଆ</option>
+	</select>
+	<div id="google_translate_element" style="display:none"></div>
 	<button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch between light and dark theme" title="Light / dark theme"><span class="fa fa-moon-o" aria-hidden="true"></span><span class="fa fa-sun-o" aria-hidden="true"></span></button>
-	<div class="site-name">
+	<div class="site-name notranslate">
 		{% if site.logo %}
 		<a href="{{ site.github.url }}/"><img src="{{ site.github.url }}/images/{{ site.logo }} "></a>
 		{% else %}

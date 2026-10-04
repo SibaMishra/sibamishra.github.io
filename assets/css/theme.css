@@ -38,3 +38,10 @@ html[data-theme="dark"] .rv-wiley{background:#3c3489;color:#cecbf6}
 html[data-theme="dark"] .rv-igi{background:#712b13;color:#f5c4b3}
 html[data-theme="dark"] .rv-tandf{background:#72243e;color:#f4c0d1}
 html[data-theme="dark"] .rv-frontiers{background:#27500a;color:#c0dd97}
+
+/* Language selector (Google Translate: English / Hindi / Odia) */
+.lang-select{position:absolute;top:10px;right:46px;z-index:20;height:28px;padding:0 6px;font-size:13px;border-radius:14px;border:1px solid rgba(0,0,0,.25);background:transparent;color:#222;cursor:pointer;width:auto}
+html[data-theme="dark"] .lang-select{color:#ececec;border-color:rgba(255,255,255,.35);background:#151515}
+body>.skiptranslate,iframe.skiptranslate,.goog-te-banner-frame,#goog-gt-tt,.goog-te-balloon-frame{display:none !important}
+body{top:0 !important}
+.goog-text-highlight{background:none !important;box-shadow:none !important}

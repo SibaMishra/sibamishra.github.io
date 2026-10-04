@@ -22,7 +22,7 @@ permalink: /activities/
 .rv-elsevier{background:#faeeda;color:#633806}.rv-springer{background:#e6f1fb;color:#0c447c}.rv-nature{background:#e1f5ee;color:#085041}
 .rv-wiley{background:#eeedfe;color:#3c3489}.rv-igi{background:#faece7;color:#712b13}.rv-tandf{background:#fbeaf0;color:#72243e}.rv-frontiers{background:#eaf3de;color:#27500a}
 </style>
-<div class="rv-badges">
+<div class="rv-badges notranslate">
 {% for r in site.data.reviewer %}{% if r.certificate %}{% assign link = r.certificate | relative_url %}{% else %}{% assign link = r.url %}{% endif %}{% if link %}<a class="rv-badge" target="_blank" href="{{ link }}" title="{{ r.journal }} ({{ r.year }}){% if r.certificate %} - view certificate{% endif %}">{% else %}<span class="rv-badge" title="{{ r.journal }} ({{ r.year }})">{% endif %}<span class="rv-l">Reviewer</span><span class="rv-{{ r.publisher }}">{{ r.journal }}</span>{% if link %}</a>{% else %}</span>{% endif %}
 {% endfor %}
 </div>
@@ -39,7 +39,7 @@ permalink: /activities/
 - **Publicity Chair**. International Conference on Computing, Communication and Learning (COCOLE 2022), NIT Warangal, India. *(2022)*
 - **Publicity Co-Chair**. 15th Innovations in Software Engineering Conference (ISEC 2022), DA-IICT Gandhinagar, India. *(2021)*
 - **Guest Editor**. Special Issue on Scalable Computing for Knowledge Discovery, International Journal of Knowledge Discovery in Bioinformatics (IJKDB), IGI Global. *(2016)*
-{: style="text-align: justify !important;text-justify: inter-word"}
+{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
 
 #### Conference Reviewer
 
@@ -58,7 +58,7 @@ permalink: /activities/
 - **Sub-Reviewer**. International Conference on VLSI & Microwave and Wireless Technologies (ICVMWT 2021), Prayagraj, India. *(2021)*
 - **Invited Reviewer**. 3rd IEEE International Conference on Computing for Sustainable Global Development (INDIACom), New Delhi, India. *(2015)*
 - **External Reviewer**. 2nd IEEE International Conference on Systems and Informatics (ICSAI 2014), Shanghai, China. *(2014)*
-{: style="text-align: justify !important;text-justify: inter-word"}
+{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
 
 #### Volunteering
 
@@ -66,7 +66,7 @@ permalink: /activities/
 - **Student Volunteer**. 3rd IEEE International Conference on Recent Advances in Information Technology (RAIT 2016), Dhanbad, India. *(2016)*
 - **Student Volunteer**. 2nd International Conference on Recent Advances in Information Technology (RAIT 2014), Dhanbad, India. *(2014)*
 - **Student Volunteer**. 7th International Conference on Distributed Computing and Information Technology (ICDCIT 2011), Bhubaneswar, India. *(2011)*
-{: style="text-align: justify !important;text-justify: inter-word"}
+{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
 
 # Teaching Assistantships
 

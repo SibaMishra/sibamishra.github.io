@@ -18,7 +18,7 @@ tags: [about, publications, patents]
 2. **Construct-Modification Tags for Development-Phase Compiler Requests**. US Patent 12,699,553. Granted: 4 Aug 2026. <a target="_blank" href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12699553"><span class="fa fa-external-link-square fa-lg" style="color:#000000" aria-hidden="true"></span></a><br>Inventors: Sridhar Vembu, Akshhayaa S, Joseph Sathya Kumar, Balamurugan K E, Suresh Kumar R, Mohamed Ismail Kaja Mydeen, Ramesh Kumar Govindaraj, **Siba Mishra**, Vanaja Ramaswamy, Padma J, Shalini Lakshmi A J, Sudheer A. Grandhi
 3. **Compile-Time Link Type Object Management**. US Patent 12,639,053. Granted: 26 May 2026. <a target="_blank" href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12639053"><span class="fa fa-external-link-square fa-lg" style="color:#000000" aria-hidden="true"></span></a><br>Inventors: Sridhar Vembu, Akshhayaa S, Padma J, Shalini Lakshmi A J, **Siba Mishra**, Vanaja Ramaswamy, Balamurugan R, Balamurugan K E, Arvind Sudarshan K, Joseph Sathya Kumar, Suresh K V, Baradhan V, Sudheer A. Grandhi
 4. **Permissions and Notifications for Construct-Modification Tags**. US Patent 12,602,211. Granted: 14 Apr 2026. <a target="_blank" href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12602211"><span class="fa fa-external-link-square fa-lg" style="color:#000000" aria-hidden="true"></span></a><br>Inventors: Sridhar Vembu, Akshhayaa S, Joseph Sathya Kumar, Balamurugan K E, Suresh Kumar R, Mohamed Ismail Kaja Mydeen, Ramesh Kumar Govindaraj, **Siba Mishra**, Vanaja Ramaswamy, Padma J, Shalini Lakshmi A J, Sudheer A. Grandhi
-{: style="text-align: justify !important;text-justify: inter-word"}
+{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
 
 #### Published Applications
 
@@ -26,7 +26,7 @@ tags: [about, publications, patents]
 5. **Integrated Development Environment Object Management Code Auto-Suggestion**. US 2025/0272063 (2025). <a target="_blank" href="https://patents.google.com/patent/US20250272063A1/en"><span class="fa fa-external-link-square fa-lg" style="color:#000000" aria-hidden="true"></span></a><br>Inventors: Sridhar Vembu, Pradeep Kumar Duraisamy Soundrapandian, Subathra Periakaruppan, **Siba Mishra**, Shalini Lakshmi A J, Vanaja Ramaswamy, Punithavathi Palani, Joseph Sathya Kumar, Akshhayaa S, Sudheer A. Grandhi
 6. **Runtime Support for Link Type Object Management**. US 2024/0241735 (2024). <a target="_blank" href="https://patents.google.com/patent/US20240241735A1/en"><span class="fa fa-external-link-square fa-lg" style="color:#000000" aria-hidden="true"></span></a><br>Inventors: Sridhar Vembu, Akshhayaa S, Vanaja Ramaswamy, Padma J, Shalini Lakshmi A J, **Siba Mishra**, Subathra Periakaruppan, Joseph Sathya Kumar, Balamurugan R, Balamurugan K E, Arvind Sudarshan K, Suresh K V, Baradhan V, Sudheer A. Grandhi
 7. **Construct-Modification Deactivation Tag for Development-Phase Compiler Requests**. US 2024/0281223 (2024). <a target="_blank" href="https://patents.google.com/patent/US20240281223A1/en"><span class="fa fa-external-link-square fa-lg" style="color:#000000" aria-hidden="true"></span></a><br>Inventors: Sridhar Vembu, Akshhayaa S, Joseph Sathya Kumar, Balamurugan K E, Suresh Kumar R, Mohamed Ismail Kaja Mydeen, Ramesh Kumar Govindaraj, **Siba Mishra**, Vanaja Ramaswamy, Padma J, Shalini Lakshmi A J, Sudheer A. Grandhi
-{: style="text-align: justify !important;text-justify: inter-word"}
+{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
 
 <div id="journals"></div>
 
@@ -48,7 +48,7 @@ tags: [about, publications, patents]
 * Abhishek Ray, <u>Siba Mishra</u>, and Durga Prasad Mohapatra. Jan. 2013. **A Novel Approach for Computing Dynamic Slices of Concurrent Aspect-Oriented Programs**. *In: International Journal of Software Engineering and its Applications* 7.1, pp. 13–32. 
 
 * Abhishek Ray, <u>Siba Mishra</u>, and Durga Prasad Mohapatra. Sept. 2012. **A Novel Approach for Computing Dynamic Slices of Aspect-Oriented Programs**. *In: International Journal of Computer Information Systems* 5.3, pp.6-12.
-{: style="text-align: justify !important;text-justify: inter-word"}
+{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
 
 <div id="conferences"></div>
 
@@ -86,4 +86,4 @@ tags: [about, publications, patents]
 * <u>Siba Mishra</u>, Urvashi Sharma, and Chiranjeev Kumar. Feb. 2014. **A Novel Approach for Computing Dynamic Slices of Web Based Applications**. *In: Proceedings of the Fourth International Conference on Advanced Computing Communication Technologies (ACCT'2014), Rohtak, India*, pp. 153–158. <a href="https://doi.org/10.1109/ACCT.2014.27" target="_blank"><span class="ai ai-doi-square ai-lg" style="color:#000000" aria-hidden="true"></span></a>
 
 * Abhishek Ray, <u>Siba Mishra</u>, and Durga Prasad Mohapatra. Feb. 2013. **Architectural Aspect-Oriented Dynamic Slicing**. *In: Proceedings of the Fourth Workshop on Advances in Model-Based Software Engineering (WAMBSE'2013), co-located at (ISEC'2013), New Delhi, India*. Vol. 11. Infosys Labs Briefings. <a href="https://sibamishra.github.io/papers/WAMBSE_2013.pdf"><span class="fa fa-file-pdf-o fa-lg" style="color:#000000" aria-hidden="true"></span></a>
-{: style="text-align: justify !important;text-justify: inter-word"}
+{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
