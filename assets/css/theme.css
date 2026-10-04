@@ -87,7 +87,7 @@ html[data-theme="dark"] .pub-tag-patent{background:#633806;color:#fac775}
 .act-stats b{display:block;font-size:26px;line-height:1.1;font-family:'PT Sans Narrow',sans-serif}
 .act-stats span{font-size:13px;color:#666;line-height:1.3;display:block}
 .tl{list-style:none;margin:.5em 0 1.5em 6px;padding:0 0 0 18px;border-left:2px solid rgba(0,0,0,.15)}
-.tl-item{position:relative;padding:0 0 14px;text-align:left}
+.tl-item{position:relative;padding:0 0 14px}
 .tl-item:before{content:"";position:absolute;left:-25px;top:6px;width:10px;height:10px;border-radius:50%;background:#fff;border:2px solid #534ab7}
 .tl-date{display:block;font-size:13px;color:#777;line-height:1.4}
 .tl-body{line-height:1.5}
@@ -117,7 +117,6 @@ html[data-theme="dark"] .mem-pill{border-color:rgba(255,255,255,.3)}
   .page-head .pub-filters{width:100%}
   .pub-select{max-width:100%}
   .rv-badge{font-size:12px}
-  .article-wrap p,.pub-list li{text-align:left !important}
 }
 
 /* Courses taught */
@@ -188,4 +187,8 @@ html[data-theme="dark"] .rs-meta{color:#ccc}
 html[data-theme="dark"] .rs-meta .fa{color:#7cc0ef}
 html[data-theme="dark"] .rs-date{background:#0c447c;color:#b5d4f4}
 .justify{text-align:justify;text-justify:inter-word}
-@media (max-width:599px){.justify{text-align:left}}
+
+/* Justified text on every page (hyphenation keeps word gaps small on phones) */
+.article-wrap p,.article-wrap li,.article-wrap td,.tl-body,.pub-list li,.news td{text-align:justify;text-justify:inter-word;-webkit-hyphens:auto;hyphens:auto}
+.article-wrap h1,.article-wrap h2,.article-wrap h3,.article-wrap h4,.tl-title,.tl-date,.role,.course,.mem-pill,.rv-badge,.stat,figcaption,.pub-filters,.rs-meta,.tl-event{text-align:left;-webkit-hyphens:manual;hyphens:manual}
+.tl-title,.tl-event a,.rv-badge,.mem-pill,.course b{-webkit-hyphens:manual;hyphens:manual}
