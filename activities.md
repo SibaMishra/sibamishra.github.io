@@ -70,9 +70,25 @@ title_right: act-filter.html
 ## Teaching
 
 #### Courses Taught at C. V. Raman Global University
-<div class="course-grid notranslate">
-{% for c in A.courses %}<div class="course"><span class="role {% if c.kind == 'Lab' %}role-chair{% else %}role-pc{% endif %}">{{ c.kind }}</span><b>{{ c.name }}</b><span class="course-meta">{{ c.program }}{% if c.year %} · {{ c.year }}{% endif %}</span></div>
+
+<div class="term-filter"><label class="pub-field"><span class="pub-label">Semester</span>
+<select id="term-select" class="pub-select"></select></label></div>
+<div class="course-grid notranslate" id="course-grid">
+{% for c in A.courses %}{% if c.term == 'Autumn' %}{% assign tk = c.year | append: '-2' %}{% else %}{% assign tk = c.year | append: '-1' %}{% endif %}<div class="course" data-term="{{ tk }}" data-label="{{ c.term }} {{ c.year }}"><span class="role {% if c.kind == 'Lab' %}role-chair{% else %}role-pc{% endif %}">{{ c.kind }}</span><b>{{ c.name }}</b><span class="course-meta">{% if c.program %}{{ c.program }} · {% endif %}{{ c.term }} {{ c.year }}</span></div>
 {% endfor %}</div>
+<script>
+(function(){
+  var sel=document.getElementById('term-select'), cards=[].slice.call(document.querySelectorAll('#course-grid .course'));
+  if(!sel||!cards.length) return;
+  var seen={},terms=[];
+  cards.forEach(function(c){var k=c.getAttribute('data-term');if(!seen[k]){seen[k]=c.getAttribute('data-label');terms.push(k);}});
+  terms.sort().reverse();
+  terms.forEach(function(k){var o=document.createElement('option');o.value=k;o.textContent=seen[k];sel.appendChild(o);});
+  var all=document.createElement('option');all.value='all';all.textContent='All semesters';sel.appendChild(all);
+  function show(){cards.forEach(function(c){c.hidden=!(sel.value==='all'||c.getAttribute('data-term')===sel.value);});}
+  sel.addEventListener('change',show); show();
+})();
+</script>
 
 #### Teaching Assistantships
 

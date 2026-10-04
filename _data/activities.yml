@@ -215,36 +215,59 @@ memberships:
     org: Computer Science Teachers Association (CSTA)
     since: 2015
 
-# Courses taught at C. V. Raman Global University (subjects only)
+# Courses taught at C. V. Raman Global University (subjects only).
+# term is Autumn (odd semesters, Jul–Dec) or Spring (even semesters, Jan–Jun).
+# program is optional. kind is Theory or Lab. Newest first.
 courses:
+  - name: Data Mining and Data Warehousing
+    term: Autumn
+    year: 2026
+    kind: Theory
+  - name: Design and Analysis of Algorithms
+    term: Autumn
+    year: 2026
+    kind: Theory
+  - name: Software Engineering Lab
+    term: Autumn
+    year: 2026
+    kind: Lab
   - name: Software Engineering
     program: BCA
+    term: Spring
     year: 2026
     kind: Theory
   - name: Management Information System
     program: BBA
+    term: Spring
     year: 2026
     kind: Theory
   - name: Management Information System Lab
     program: BBA
+    term: Spring
     year: 2026
     kind: Lab
   - name: Basics of Machine Learning Lab
     program: B. Tech
+    term: Spring
+    year: 2026
     kind: Lab
   - name: Introduction to AI and ML
     program: B. Tech
+    term: Autumn
     year: 2025
     kind: Theory
   - name: AI and ML Lab
     program: B. Tech
+    term: Autumn
     year: 2025
     kind: Lab
   - name: Data Structures
     program: B. Tech
+    term: Spring
     year: 2025
     kind: Theory
   - name: Data Structures Lab
     program: B. Tech
+    term: Spring
     year: 2025
     kind: Lab

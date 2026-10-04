@@ -177,3 +177,5 @@ html[data-theme="dark"] .act-sec table.mytable2 td:first-child{color:#aaa}
 .album-link{display:inline-block;margin-top:6px;font-size:13px}
 html[data-theme="dark"] .album-item{border-color:rgba(255,255,255,.15);background:rgba(255,255,255,.03)}
 html[data-theme="dark"] .album-item figcaption span{color:#aaa}
+.term-filter{margin:.3em 0 .2em}
+.course[hidden]{display:none}
