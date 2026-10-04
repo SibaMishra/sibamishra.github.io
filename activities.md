@@ -67,7 +67,14 @@ title_right: act-filter.html
 
 <div class="act-sec" id="teaching" markdown="1">
 
-## Teaching Assistantships
+## Teaching
+
+#### Courses Taught at C. V. Raman Global University
+<div class="course-grid notranslate">
+{% for c in A.courses %}<div class="course"><span class="role {% if c.kind == 'Lab' %}role-chair{% else %}role-pc{% endif %}">{{ c.kind }}</span><b>{{ c.name }}</b><span class="course-meta">{{ c.program }}{% if c.year %} · {{ c.year }}{% endif %}</span></div>
+{% endfor %}</div>
+
+#### Teaching Assistantships
 
 <div class="table-scroll" markdown="1">
 

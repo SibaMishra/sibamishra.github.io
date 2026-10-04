@@ -1,5 +1,6 @@
 # Activities page data. Newest first in each list.
 # kind sets the tag colour: talk, pc, chair, editor, review, volunteer
+# url (optional) links the event; photo (optional) e.g. /images/talks/ieee-2026.jpg shows a thumbnail.
 # title (optional) is shown in quotes; everything here stays in English when translated.
 
 talks:
@@ -12,11 +13,13 @@ talks:
     role: Resource person
     kind: talk
     event: "Online E & ICT Faculty Development Programme on Large Language Models for Generative AI: Foundations, Design and Applications (LLMGAI), NIT Warangal, India"
+    url: https://nitw.ac.in/eict
   - date: Dec 2024
     role: Invited speaker
     kind: talk
     title: Artificial Intelligence for Natural Language Software Requirements
     event: "Online E & ICT Faculty Development Programme on Real World AI Applications: Bridging Academia and Industry, NIT Warangal with RNS Institute of Technology, Bengaluru, India"
+    url: https://nitw.ac.in/eict
   - date: Mar 2021
     role: Invited speaker
     kind: talk
@@ -25,6 +28,7 @@ talks:
     role: Invited speaker
     kind: talk
     event: Faculty Development Programme on Scientific Writing using LaTeX, BGSBU, Rajouri, Jammu and Kashmir, India
+    url: https://news.statetimes.in/fdp-on-scientific-writing-using-latex-concludes-at-bgsbu/
   - date: Mar 2018
     role: Invited speaker
     kind: talk
@@ -39,22 +43,27 @@ service:
     role: PC member
     kind: pc
     event: Agentic Software Engineering (SE 3.0), co-located with ACM KDD 2026, Jeju Island, South Korea
+    url: https://agent-se.github.io/
   - date: Nov 2024
     role: Technical and advisory committee
     kind: pc
     event: 2nd International Conference on Artificial Intelligence, Machine Learning & Intelligent Systems (ICAMS 2025), NIT Hamirpur, India
+    url: https://sites.google.com/nith.ac.in/icams2025/home
   - date: Sep 2024
     role: Session chair
     kind: chair
     event: International Conference on Computing, Communication and Learning (COCOLE 2024), NIT Warangal, India
+    url: https://ic-cocole.in/cocole2024/
   - date: Aug 2022
     role: Publicity chair
     kind: chair
     event: International Conference on Computing, Communication and Learning (COCOLE 2022), NIT Warangal, India
+    url: https://ic-cocole.in/cocole2022/
   - date: Mar 2021
     role: Publicity co-chair
     kind: chair
     event: 15th Innovations in Software Engineering Conference (ISEC 2022), DA-IICT Gandhinagar, India
+    url: https://isoft.acm.org/isec2022/
   - date: Nov 2016
     role: Guest editor
     kind: editor
@@ -87,6 +96,7 @@ conference_reviewing:
     role: Reviewer
     kind: review
     event: International Conference on Frontiers in Advanced Computing and Emerging Intelligent Technologies (FACEIT 2026), NIT Warangal, India
+    url: https://ic-faceit.in/
   - date: Aug 2025
     role: Invited reviewer
     kind: review
@@ -95,6 +105,7 @@ conference_reviewing:
     role: Invited reviewer
     kind: review
     event: International Conference on Artificial Intelligence and Emerging Technologies (ICAIET 2025), XIM University, Bhubaneswar, India
+    url: https://scse.xim.edu.in/news-events/icaiet-2025/
   - date: Jul 2025
     role: Invited reviewer
     kind: review
@@ -107,18 +118,22 @@ conference_reviewing:
     role: Invited reviewer
     kind: review
     event: 1st International Conference on Smart and Sustainable Developments in Electrical Engineering (SSDEE 2025), IIT (ISM) Dhanbad, India
+    url: https://people.iitism.ac.in/~ssdee-2025/
   - date: Feb 2025
     role: Reviewer
     kind: review
     event: 2nd International Conference on Artificial Intelligence, Machine Learning & Intelligent Systems (ICAMS 2025), NIT Hamirpur, India
+    url: https://sites.google.com/nith.ac.in/icams2025/home
   - date: Jan 2025
     role: Reviewer
     kind: review
     event: 6th International Conference on Advances in Distributed Computing and Machine Learning (ICADCML 2025), NTUST, Taiwan
+    url: https://www.icadcml.org/
   - date: Mar 2024
     role: Reviewer
     kind: review
     event: International Conference on Cognitive, Green and Ubiquitous Computing (ICCGU 2024), C. V. Raman Global University, Bhubaneswar, India
+    url: https://www.ic-cgu.co.in/Ic_Cgu_2024.php
   - date: Jul 2023
     role: Sub-reviewer
     kind: review
@@ -162,3 +177,37 @@ memberships:
   - role: Member
     org: Computer Science Teachers Association (CSTA)
     since: 2015
+
+# Courses taught at C. V. Raman Global University (subjects only)
+courses:
+  - name: Software Engineering
+    program: BCA
+    year: 2026
+    kind: Theory
+  - name: Management Information System
+    program: BBA
+    year: 2026
+    kind: Theory
+  - name: Management Information System Lab
+    program: BBA
+    year: 2026
+    kind: Lab
+  - name: Basics of Machine Learning Lab
+    program: B. Tech
+    kind: Lab
+  - name: Introduction to AI and ML
+    program: B. Tech
+    year: 2025
+    kind: Theory
+  - name: AI and ML Lab
+    program: B. Tech
+    year: 2025
+    kind: Lab
+  - name: Data Structures
+    program: B. Tech
+    year: 2025
+    kind: Theory
+  - name: Data Structures Lab
+    program: B. Tech
+    year: 2025
+    kind: Lab
