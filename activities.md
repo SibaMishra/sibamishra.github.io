@@ -11,6 +11,16 @@ permalink: /activities/
 <li><strong>Member</strong>. Computer Science and Engineering (CSE) Society, IIT(ISM) Dhanbad. </li>
 </ol>{: style="text-align: justify !important;text-justify: inter-word"}
 
+# Invited Talks
+---
+- **Expert Talk**: "<span class="notranslate">Unlocking Prompt Engineering from Tokens to RAG</span>". IEEE Computer Society Chapter, Bhubaneswar Section, India. *(Oct 2026)*
+- **Resource Person**: Online E & ICT Faculty Development Programme on Large Language Models for Generative AI: Foundations, Design and Applications (LLMGAI), NIT Warangal, India. *(Sep 2026)*
+- **Invited Speaker**: "<span class="notranslate">Artificial Intelligence for Natural Language Software Requirements</span>". Online E & ICT Faculty Development Programme on Real World AI Applications: Bridging Academia and Industry, NIT Warangal in association with RNS Institute of Technology, Bengaluru, India. *(Dec 2024)*
+- **Invited Speaker**: Faculty Development Programme on Scientific Writing using LaTeX, MITS, Madanapalle, Andhra Pradesh, India. *(Mar 2021)*
+- **Invited Speaker**: Faculty Development Programme on Scientific Writing using LaTeX, BGSBU, Rajouri, Jammu and Kashmir, India. *(Oct 2020)*
+- **Invited Speaker**: Scientific Writing using LaTeX, a Technical Development Program sponsored by the SPIE Student Chapter, Department of Electronics Engineering, IIT (ISM) Dhanbad, India. *(Mar 2018)*
+{: style="text-align: justify !important;text-justify: inter-word"}
+
 # Journal Reviewer
 ---
 <style>
