@@ -216,7 +216,7 @@ memberships:
     since: 2015
 
 # Courses taught at C. V. Raman Global University (subjects only).
-# term is Autumn (odd semesters, Jul–Dec) or Spring (even semesters, Jan–Jun).
+# term is Autumn (odd semesters, Jul-Dec) or Spring (even semesters, Jan-Jun).
 # program is optional. kind is Theory or Lab. Newest first.
 courses:
   - name: Data Mining and Data Warehousing
