@@ -29,15 +29,7 @@ permalink: /activities/
 
 # Professional Activities
 ---
-- **Reviewer**. Automation in Construction, Elsevier.
-- **Reviewer**. Information Fusion, Elsevier.
 - **Volunteer**. The Fourth Paradigm : From Data to Discovery, Bhopal, India.
-- **Reviewer**. Future Generation Computer Systems, Elsevier.
-- **Reviewer**. Journal of Parallel and Distributed Computing, Elsevier.
-- **Reviewer**. Arabian Journal for Science and Engineering, Springer.
-- **Ad-hoc Reviewer**. International Journal of Fog Computing, IGI Global.
-- **Ad-hoc Reviewer**. International Journal of Web Services Research, IGI Global.
-- **Reviewer**. Software: Practice and Experience, Wiley.
 {: style="text-align: justify !important;text-justify: inter-word"}
 
 # Teaching Assistantships
