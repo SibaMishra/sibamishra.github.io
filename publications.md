@@ -20,6 +20,10 @@ modified: 9-20-20
 
 * Bijaya Laxmi Swain, Sandip Kumar Sahoo, <u>Siba Mishra</u>, Supriya Panigrahy, Rajshree Sahu, Raj Kumar Rout, Chinmaya Jena, Sai SipraRanjan, and Pragyna Mahapatra. Aug. 2025. **Early Detection of Diabetic Retinopathy Using Convolutional Neural Networks**. *In: International Conference on Artificial Intelligence and Emerging Technologies (ICAIET'2025), XIM University, Bhubaneswar, India*.
 
+* Kritika Das, Pranab Kumar Sahoo, Kumar Sumit Sohan, Supriya Panigrahy, and <u>Siba Mishra</u>. Apr. 2025. **Exploring Radial Basis Function Neural Networks with Varied Loss Functions**. *In: Fourth International Conference on Computing, Communication and Learning (COCOLE'2025), NIT Rourkela, India*, pp. 429–443.
+
+* Kusagra Raj, Himanshu, Mrinal Das, Abhisek Kumar Sharma, Supriya Panigrahy, and <u>Siba Mishra</u>. Apr. 2025. **Enhancing Coverless Image Steganography with Combined SIFT and ORB Features**. *In: Fourth International Conference on Computing, Communication and Learning (COCOLE'2025), NIT Rourkela, India*, pp. 398–407.
+
 * <u>Siba Mishra</u>, Arpit Sharma. Feb. 2021. **A Generalized Semantic Filter for Glossary Term Extraction from Large-Sized Software Requirements**. *In: Proceedings of the 14th Innovations in Software Engineering Conference (Formerly Known as India Software Engineering Conference) (ISEC'2021), Bhubaneswar, India*, Article 4, pp. 1-9. <a target="_blank" href="https://doi.org/10.1145/3452383.3452387"><span class="ai ai-doi-square ai-lg zoom" style="color:#000000" aria-hidden="true"></span></a> 
 
 * <u>Siba Mishra</u>, Arpit Sharma. Feb. 2021. **Crawling Wikipedia Pages to Train Word Embeddings Model for Software Engineering Domain**. *In: Proceedings of the 14th Innovations in Software Engineering Conference (Formerly Known as India Software Engineering Conference) (ISEC'2021), Bhubaneswar, India*, Article 18, pp. 1-5. <a target="_blank" href="https://doi.org/10.1145/3452383.3452401"><span class="ai ai-doi-square ai-lg zoom" style="color:#000000" aria-hidden="true"></span></a> 
