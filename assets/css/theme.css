@@ -166,3 +166,14 @@ html[data-theme="dark"] .act-sec table.mytable2 td:first-child{color:#aaa}
   body.is-home .article-author-side .author-social{display:inline-block;margin:0 12px 0 0;font-size:15px}
   html[data-theme="dark"] body.is-home .article-author-side{border-bottom-color:rgba(255,255,255,.12)}
 }
+
+/* Album */
+.album{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin:.5em 0 1.5em}
+.album-item{margin:0;border:1px solid rgba(0,0,0,.12);border-radius:10px;overflow:hidden;background:rgba(0,0,0,.02)}
+.album-item img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.album-item figcaption{padding:10px 12px;line-height:1.4;font-size:14px}
+.album-item figcaption b{display:block;font-size:15px}
+.album-item figcaption span{display:block;color:#777;font-size:13px;margin-top:2px}
+.album-link{display:inline-block;margin-top:6px;font-size:13px}
+html[data-theme="dark"] .album-item{border-color:rgba(255,255,255,.15);background:rgba(255,255,255,.03)}
+html[data-theme="dark"] .album-item figcaption span{color:#aaa}

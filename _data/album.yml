@@ -1,0 +1,14 @@
+# Photo album (/album/). Newest first.
+# image: the picture shown in the grid; full (optional): larger image opened on click.
+# Put image files in images/talks/ (or any folder under images/).
+
+- title: "Expert Talk: Unlocking Prompt Engineering from Tokens to RAG"
+  event: IEEE Computer Society Chapter, Bhubaneswar Section
+  date: 2 Oct 2026
+  image: /images/talks/ieee-cs-bbsr-2026-poster.jpg
+  link: https://r10.ieee.org/bhubaneswar-computer/blog/2026/10/03/02nd-oct-2026-expert-talk-on-unlocking-prompt-engineering-from-tokens-to-rag-successfully-conducted/
+- title: Expert Talk, session highlights
+  event: IEEE Computer Society Chapter, Bhubaneswar Section
+  date: 2 Oct 2026
+  image: /images/talks/ieee-cs-bbsr-2026.jpg
+  link: https://r10.ieee.org/bhubaneswar-computer/blog/2026/10/03/02nd-oct-2026-expert-talk-on-unlocking-prompt-engineering-from-tokens-to-rag-successfully-conducted/
