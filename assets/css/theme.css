@@ -127,4 +127,4 @@ html[data-theme="dark"] .mem-pill{border-color:rgba(255,255,255,.3)}
 .course-meta{font-size:13px;color:#777}
 html[data-theme="dark"] .course{border-color:rgba(255,255,255,.15)}
 html[data-theme="dark"] .course-meta{color:#aaa}
-.tl-photo img{display:block;max-width:220px;width:100%;margin:8px 0 2px;border-radius:6px;border:1px solid rgba(0,0,0,.12)}
+.tl-photo img{display:block;max-width:280px;width:100%;margin:8px 0 2px;border-radius:6px;border:1px solid rgba(0,0,0,.12)}

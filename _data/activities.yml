@@ -1,6 +1,6 @@
 # Activities page data. Newest first in each list.
 # kind sets the tag colour: talk, pc, chair, editor, review, volunteer
-# url (optional) links the event; photo (optional) e.g. /images/talks/ieee-2026.jpg shows a thumbnail.
+# url (optional) links the event; photo (optional) shows a thumbnail; photo_full (optional) opens on click.
 # title (optional) is shown in quotes; everything here stays in English when translated.
 
 talks:
@@ -10,6 +10,8 @@ talks:
     title: Unlocking Prompt Engineering from Tokens to RAG
     event: IEEE Computer Society Chapter, Bhubaneswar Section, India
     url: https://r10.ieee.org/bhubaneswar-computer/blog/2026/10/03/02nd-oct-2026-expert-talk-on-unlocking-prompt-engineering-from-tokens-to-rag-successfully-conducted/
+    photo: /images/talks/ieee-cs-bbsr-2026-poster.jpg
+    photo_full: /images/talks/ieee-cs-bbsr-2026.jpg
   - date: Sep 2026
     role: Resource person
     kind: talk
