@@ -16,6 +16,10 @@ modified: 9-20-20
 
 * Sanjaya Kumar Panda, Sankalp Dubey, and <u>Siba Mishra</u>. Oct. 2025. **Efficient Task Scheduling Algorithms for Decentralized Large Language Model Serving**. *In: Proceedings of the IEEE Region 10 Conference (TENCON'2025), Kota Kinabalu, Sabah, Malaysia*, pp. 1023–1027.
 
+* Sai Sipraranjan, Pragyna Mahapatra, <u>Siba Mishra</u>, Supriya Panigrahy, Chinmaya Jena, Raj Kumar Rout, Sandip Kumar Sahoo, Bijaya Laxmi Swain, and Rajashree Sahu. Aug. 2025. **Skin Cancer Image Classification Using Convolutional Neural Networks**. *In: International Conference on Artificial Intelligence and Emerging Technologies (ICAIET'2025), XIM University, Bhubaneswar, India*.
+
+* Bijaya Laxmi Swain, Sandip Kumar Sahoo, <u>Siba Mishra</u>, Supriya Panigrahy, Rajshree Sahu, Raj Kumar Rout, Chinmaya Jena, Sai SipraRanjan, and Pragyna Mahapatra. Aug. 2025. **Early Detection of Diabetic Retinopathy Using Convolutional Neural Networks**. *In: International Conference on Artificial Intelligence and Emerging Technologies (ICAIET'2025), XIM University, Bhubaneswar, India*.
+
 * <u>Siba Mishra</u>, Arpit Sharma. Feb. 2021. **A Generalized Semantic Filter for Glossary Term Extraction from Large-Sized Software Requirements**. *In: Proceedings of the 14th Innovations in Software Engineering Conference (Formerly Known as India Software Engineering Conference) (ISEC'2021), Bhubaneswar, India*, Article 4, pp. 1-9. <a target="_blank" href="https://doi.org/10.1145/3452383.3452387"><span class="ai ai-doi-square ai-lg zoom" style="color:#000000" aria-hidden="true"></span></a> 
 
 * <u>Siba Mishra</u>, Arpit Sharma. Feb. 2021. **Crawling Wikipedia Pages to Train Word Embeddings Model for Software Engineering Domain**. *In: Proceedings of the 14th Innovations in Software Engineering Conference (Formerly Known as India Software Engineering Conference) (ISEC'2021), Bhubaneswar, India*, Article 18, pp. 1-5. <a target="_blank" href="https://doi.org/10.1145/3452383.3452401"><span class="ai ai-doi-square ai-lg zoom" style="color:#000000" aria-hidden="true"></span></a> 
