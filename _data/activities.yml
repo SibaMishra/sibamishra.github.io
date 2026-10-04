@@ -2,7 +2,8 @@
 # kind sets the tag colour: talk, pc, chair, editor, review, volunteer
 # url (optional) links the event; photo (optional) shows a thumbnail; photo_full (optional) opens on click.
 # short (optional) is the compact name shown; the full event name appears on hover.
-# title (optional) is shown in quotes; everything here stays in English when translated.
+# title (optional) is shown in quotes; use titles (a list) for more than one talk at one event.
+# everything here stays in English when translated.
 
 talks:
   - date: Oct 2026
@@ -16,6 +17,9 @@ talks:
   - date: Sep 2026
     role: Resource person
     kind: talk
+    titles:
+      - "Demystifying Large Language Models: From AI Basics to Building with Generative AI"
+      - "Scaling, Reasoning and the Future of LLMs"
     event: "Online E & ICT Faculty Development Programme on Large Language Models for Generative AI: Foundations, Design and Applications (LLMGAI), NIT Warangal, India"
     short: E & ICT FDP on Large Language Models for Generative AI (LLMGAI), NIT Warangal
     url: https://nitw.ac.in/eict
