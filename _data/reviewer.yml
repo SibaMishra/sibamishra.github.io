@@ -1,0 +1,59 @@
+# Journal reviewer badges (shown on the Activities page).
+# To add a certificate: put the image/PDF in images/certificates/ and set
+#   certificate: /images/certificates/<file name>
+# The badge then opens the certificate; otherwise it opens the journal's page.
+# publisher sets the colour: elsevier, springer, nature, wiley, igi, tandf, frontiers
+
+- journal: Information Fusion
+  publisher: elsevier
+  year: 2021
+  url: https://www.sciencedirect.com/journal/information-fusion
+- journal: Expert Systems with Applications
+  publisher: elsevier
+  year: 2021
+  url: https://www.sciencedirect.com/journal/expert-systems-with-applications
+- journal: Future Generation Computer Systems
+  publisher: elsevier
+  year: 2019
+  url: https://www.sciencedirect.com/journal/future-generation-computer-systems
+- journal: Journal of Parallel and Distributed Computing
+  publisher: elsevier
+  year: 2018
+  url: https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing
+- journal: Automation in Construction
+  publisher: elsevier
+  year: 2022
+  url: https://www.sciencedirect.com/journal/automation-in-construction
+- journal: Scientific Reports
+  publisher: nature
+  year: 2025
+  url: https://www.nature.com/srep/
+- journal: The Journal of Supercomputing
+  publisher: springer
+  year: 2021
+  url: https://link.springer.com/journal/11227
+- journal: Arabian Journal for Science and Engineering
+  publisher: springer
+  year: 2018
+  url: https://link.springer.com/journal/13369
+- journal: Software - Practice and Experience
+  publisher: wiley
+  year: 2016
+  url: https://onlinelibrary.wiley.com/journal/1097024x
+- journal: Frontiers in Psychology
+  publisher: frontiers
+  year: 2022
+  url: https://www.frontiersin.org/journals/psychology
+- journal: International Journal of Computers and Applications
+  publisher: tandf
+  year: 2016
+  url: https://www.tandfonline.com/journals/tjca20
+- journal: International Journal of Fog Computing
+  publisher: igi
+  year: 2018
+- journal: International Journal of Web Services Research
+  publisher: igi
+  year: 2017
+- journal: International Journal of Rough Sets and Data Analysis
+  publisher: igi
+  year: 2016

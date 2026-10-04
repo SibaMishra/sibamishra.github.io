@@ -11,6 +11,22 @@ permalink: /activities/
 <li><strong>Member</strong>. Computer Science and Engineering (CSE) Society, IIT(ISM) Dhanbad. </li>
 </ol>{: style="text-align: justify !important;text-justify: inter-word"}
 
+# Journal Reviewer
+---
+<style>
+.rv-badges{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 1.5em}
+.rv-badge{display:inline-flex;font-size:13px;line-height:1.4;border-radius:4px;overflow:hidden;text-decoration:none !important;border:1px solid rgba(0,0,0,.12)}
+.rv-badge span{padding:3px 9px}
+.rv-badge .rv-l{background:#444441;color:#f1efe8}
+.rv-badge:hover{opacity:.85}
+.rv-elsevier{background:#faeeda;color:#633806}.rv-springer{background:#e6f1fb;color:#0c447c}.rv-nature{background:#e1f5ee;color:#085041}
+.rv-wiley{background:#eeedfe;color:#3c3489}.rv-igi{background:#faece7;color:#712b13}.rv-tandf{background:#fbeaf0;color:#72243e}.rv-frontiers{background:#eaf3de;color:#27500a}
+</style>
+<div class="rv-badges">
+{% for r in site.data.reviewer %}{% if r.certificate %}{% assign link = r.certificate | relative_url %}{% else %}{% assign link = r.url %}{% endif %}{% if link %}<a class="rv-badge" target="_blank" href="{{ link }}" title="{{ r.journal }} ({{ r.year }}){% if r.certificate %} - view certificate{% endif %}">{% else %}<span class="rv-badge" title="{{ r.journal }} ({{ r.year }})">{% endif %}<span class="rv-l">Reviewer</span><span class="rv-{{ r.publisher }}">{{ r.journal }}</span>{% if link %}</a>{% else %}</span>{% endif %}
+{% endfor %}
+</div>
+
 # Professional Activities
 ---
 - **Reviewer**. Automation in Construction, Elsevier.
