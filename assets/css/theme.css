@@ -202,3 +202,4 @@ html[data-theme="dark"] .rs-date{background:#0c447c;color:#b5d4f4}
 .ab-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:0 16px}
 .ab-date{color:#555;white-space:nowrap}
 html[data-theme="dark"] .ab-date{color:#bbb}
+.article-wrap p.ab-block{margin-bottom:.35em;text-align:left}
