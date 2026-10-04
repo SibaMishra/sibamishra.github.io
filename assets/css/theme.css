@@ -196,3 +196,6 @@ html[data-theme="dark"] .rs-date{background:#0c447c;color:#b5d4f4}
 .tl-title,.tl-event a,.rv-badge,.mem-pill,.course b{-webkit-hyphens:manual;hyphens:manual}
 .article-wrap h3+.rs-meta{margin-top:.1em}
 .article-wrap p.rs-meta{text-align:left;-webkit-hyphens:manual;hyphens:manual}
+
+/* About page: plain lines, no gaps between lines of one entry */
+.about-plain p{text-align:left;line-height:1.55;margin:0 0 1.1em}
