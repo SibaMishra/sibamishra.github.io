@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /collab/
+title: Collaborators
 ---
 ---
 <ol>
