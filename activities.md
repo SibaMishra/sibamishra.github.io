@@ -7,7 +7,7 @@ permalink: /activities/
 <ol>
 <li><strong>Professional Member</strong>. Association for Computing Machinery (ACM). </li>
 <li><strong>Member</strong>. India SOFTware Engineering community (ISOFT). </li>
-<li><strong>Graduate Student Member</strong>. Institute of Electrical and Electronics Engineers (IEEE). </li>
+<li><strong>Senior Member</strong>. Institute of Electrical and Electronics Engineers (IEEE). </li>
 <li><strong>Member</strong>. Computer Science and Engineering (CSE) Society, IIT(ISM) Dhanbad. </li>
 </ol>{: style="text-align: justify !important;text-justify: inter-word"}
 
@@ -29,7 +29,43 @@ permalink: /activities/
 
 # Professional Activities
 ---
-- **Volunteer**. The Fourth Paradigm : From Data to Discovery, Bhopal, India.
+
+#### Program Committee, Chairs and Editorial Roles
+
+- **Program Committee Member**. 26th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2027), Hanoi, Vietnam. *(2026)*
+- **Program Committee Member**. Agentic Software Engineering (SE 3.0), co-located with ACM KDD 2026, Jeju Island, South Korea. *(2026)*
+- **Technical and Advisory Committee**. 2nd International Conference on Artificial Intelligence, Machine Learning & Intelligent Systems (ICAMS 2025), NIT Hamirpur, India. *(2024)*
+- **Session Chair**. International Conference on Computing, Communication and Learning (COCOLE 2024), NIT Warangal, India. *(2024)*
+- **Publicity Chair**. International Conference on Computing, Communication and Learning (COCOLE 2022), NIT Warangal, India. *(2022)*
+- **Publicity Co-Chair**. 15th Innovations in Software Engineering Conference (ISEC 2022), DA-IICT Gandhinagar, India. *(2021)*
+- **Guest Editor**. Special Issue on Scalable Computing for Knowledge Discovery, International Journal of Knowledge Discovery in Bioinformatics (IJKDB), IGI Global. *(2016)*
+{: style="text-align: justify !important;text-justify: inter-word"}
+
+#### Conference Reviewer
+
+- **External Reviewer**. International Conference on Artificial Intelligence, Computer, Data Sciences and Applications, Rio de Janeiro, Brazil. *(2026)*
+- **Reviewer**. International Conference on Frontiers in Advanced Computing and Emerging Intelligent Technologies (FACEIT 2026), NIT Warangal, India. *(2026)*
+- **Invited Reviewer**. International Conference on Cyber Security and Artificial Intelligence (ICCSAI 2025), Kolkata, India. *(2025)*
+- **Invited Reviewer**. International Conference on Artificial Intelligence and Emerging Technologies (ICAIET 2025), XIM University, Bhubaneswar, India. *(2025)*
+- **Invited Reviewer**. 1st International Conference on Power and Intelligent Control Systems (PICS 2025), NIT Hamirpur, India. *(2025)*
+- **Invited Reviewer**. 6th International Conference on Recent Advances in Information Technology (RAIT 2025), IIT (ISM) Dhanbad, India. *(2025)*
+- **Invited Reviewer**. 1st International Conference on Smart and Sustainable Developments in Electrical Engineering (SSDEE 2025), IIT (ISM) Dhanbad, India. *(2025)*
+- **Reviewer**. 2nd International Conference on Artificial Intelligence, Machine Learning & Intelligent Systems (ICAMS 2025), NIT Hamirpur, India. *(2025)*
+- **Reviewer**. 6th International Conference on Advances in Distributed Computing and Machine Learning (ICADCML 2025), NTUST, Taiwan. *(2025)*
+- **Reviewer**. International Conference on Cognitive, Green and Ubiquitous Computing (ICCGU 2024), C. V. Raman Global University, Bhubaneswar, India. *(2024)*
+- **Sub-Reviewer**. 20th IEEE India Council International Conference (INDICON 2023), Warangal, India. *(2023)*
+- **Sub-Reviewer**. 3rd International Conference on Advances in Distributed Computing and Machine Learning (ICADCML 2022), NIT Warangal, India. *(2022)*
+- **Sub-Reviewer**. International Conference on VLSI & Microwave and Wireless Technologies (ICVMWT 2021), Prayagraj, India. *(2021)*
+- **Invited Reviewer**. 3rd IEEE International Conference on Computing for Sustainable Global Development (INDIACom), New Delhi, India. *(2015)*
+- **External Reviewer**. 2nd IEEE International Conference on Systems and Informatics (ICSAI 2014), Shanghai, China. *(2014)*
+{: style="text-align: justify !important;text-justify: inter-word"}
+
+#### Volunteering
+
+- **Volunteer**. The Fourth Paradigm: From Data to Discovery, Bhopal, India. *(2020)*
+- **Student Volunteer**. 3rd IEEE International Conference on Recent Advances in Information Technology (RAIT 2016), Dhanbad, India. *(2016)*
+- **Student Volunteer**. 2nd International Conference on Recent Advances in Information Technology (RAIT 2014), Dhanbad, India. *(2014)*
+- **Student Volunteer**. 7th International Conference on Distributed Computing and Information Technology (ICDCIT 2011), Bhubaneswar, India. *(2011)*
 {: style="text-align: justify !important;text-justify: inter-word"}
 
 # Teaching Assistantships
