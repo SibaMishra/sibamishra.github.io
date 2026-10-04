@@ -199,3 +199,6 @@ html[data-theme="dark"] .rs-date{background:#0c447c;color:#b5d4f4}
 
 /* About page: plain lines, no gaps between lines of one entry */
 .about-plain p{text-align:left;line-height:1.55;margin:0 0 1.1em}
+.ab-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:0 16px}
+.ab-date{color:#555;white-space:nowrap}
+html[data-theme="dark"] .ab-date{color:#bbb}
