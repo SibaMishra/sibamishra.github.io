@@ -180,7 +180,9 @@ html[data-theme="dark"] .album-item figcaption span{color:#aaa}
 .course[hidden]{display:none}
 
 /* Research page: institution and dates under each heading */
-.rs-meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:-.2em 0 .9em;font-size:16px;color:#444}
+.rs-meta{display:block;margin:-.2em 0 .9em;font-size:16px;line-height:1.7;color:#444}
+.rs-meta .fa{margin-right:6px}
+.rs-date{margin-left:6px;white-space:nowrap}
 .rs-meta .fa{color:#0b5394}
 .rs-date{display:inline-block;font-size:13px;font-weight:bold;font-family:sans-serif;padding:1px 10px;border-radius:12px;background:#e6f1fb;color:#0c447c}
 html[data-theme="dark"] .rs-meta{color:#ccc}
@@ -192,3 +194,5 @@ html[data-theme="dark"] .rs-date{background:#0c447c;color:#b5d4f4}
 .article-wrap p,.article-wrap li,.article-wrap td,.tl-body,.pub-list li,.news td{text-align:justify;text-justify:inter-word;-webkit-hyphens:auto;hyphens:auto}
 .article-wrap h1,.article-wrap h2,.article-wrap h3,.article-wrap h4,.tl-title,.tl-date,.role,.course,.mem-pill,.rv-badge,.stat,figcaption,.pub-filters,.rs-meta,.tl-event{text-align:left;-webkit-hyphens:manual;hyphens:manual}
 .tl-title,.tl-event a,.rv-badge,.mem-pill,.course b{-webkit-hyphens:manual;hyphens:manual}
+.article-wrap h3+.rs-meta{margin-top:.1em}
+.article-wrap p.rs-meta{text-align:left;-webkit-hyphens:manual;hyphens:manual}
