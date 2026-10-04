@@ -7,7 +7,7 @@
 {% include _head.html %}
 </head>
 
-<body class="page">
+<body class="page{% if page.url == '/' or page.url == '/index.html' %} is-home{% endif %}">
 
 {% include _browser-upgrade.html %}
 

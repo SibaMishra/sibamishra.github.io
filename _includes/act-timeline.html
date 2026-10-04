@@ -1,7 +1,10 @@
+{% assign older = 0 %}<div class="tl-wrap">
 <ol class="tl notranslate">
-{% for a in include.items %}  <li class="tl-item">
+{% for a in include.items %}{% assign y = a.date | split: ' ' | last | plus: 0 %}{% if include.older_than and y < include.older_than %}{% assign is_old = true %}{% assign older = older | plus: 1 %}{% else %}{% assign is_old = false %}{% endif %}  <li class="tl-item{% if is_old %} tl-old{% endif %}">
     <span class="tl-date">{{ a.date }}</span>
     <div class="tl-body"><span class="role role-{{ a.kind }}">{{ a.role }}</span>{% if a.title %}<span class="tl-title">“{{ a.title }}”</span>{% endif %}
-      <span class="tl-event">{% if a.url %}<a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.event }}</a>{% else %}{{ a.event }}{% endif %}</span>{% if a.photo %}{% assign big = a.photo_full | default: a.photo %}<a class="tl-photo" href="{{ big | relative_url }}" target="_blank"><img src="{{ a.photo | relative_url }}" alt="Photo: {{ a.role }}, {{ a.date }}" loading="lazy"></a>{% endif %}</div>
+      {% assign label = a.short | default: a.event %}<span class="tl-event" title="{{ a.event | escape }}">{% if a.url %}<a href="{{ a.url }}" target="_blank" rel="noopener">{{ label }}</a>{% else %}{{ label }}{% endif %}</span>{% if a.photo %}{% assign big = a.photo_full | default: a.photo %}<a class="tl-photo" href="{{ big | relative_url }}" target="_blank"><img src="{{ a.photo | relative_url }}" alt="Photo: {{ a.role }}, {{ a.date }}" loading="lazy"></a>{% endif %}</div>
   </li>
 {% endfor %}</ol>
+{% if older > 0 %}<button type="button" class="tl-more" data-label-more="Show older ({{ older }})" data-label-less="Show fewer">Show older ({{ older }})</button>{% endif %}
+</div>

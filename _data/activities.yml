@@ -1,6 +1,7 @@
 # Activities page data. Newest first in each list.
 # kind sets the tag colour: talk, pc, chair, editor, review, volunteer
 # url (optional) links the event; photo (optional) shows a thumbnail; photo_full (optional) opens on click.
+# short (optional) is the compact name shown; the full event name appears on hover.
 # title (optional) is shown in quotes; everything here stays in English when translated.
 
 talks:
@@ -16,61 +17,73 @@ talks:
     role: Resource person
     kind: talk
     event: "Online E & ICT Faculty Development Programme on Large Language Models for Generative AI: Foundations, Design and Applications (LLMGAI), NIT Warangal, India"
+    short: E & ICT FDP on Large Language Models for Generative AI (LLMGAI), NIT Warangal
     url: https://nitw.ac.in/eict
   - date: Dec 2024
     role: Invited speaker
     kind: talk
     title: Artificial Intelligence for Natural Language Software Requirements
     event: "Online E & ICT Faculty Development Programme on Real World AI Applications: Bridging Academia and Industry, NIT Warangal with RNS Institute of Technology, Bengaluru, India"
+    short: E & ICT FDP on Real World AI Applications, NIT Warangal and RNSIT Bengaluru
     url: https://nitw.ac.in/eict
   - date: Mar 2021
     role: Invited speaker
     kind: talk
     event: Faculty Development Programme on Scientific Writing using LaTeX, MITS, Madanapalle, Andhra Pradesh, India
+    short: FDP on Scientific Writing using LaTeX, MITS Madanapalle
   - date: Oct 2020
     role: Invited speaker
     kind: talk
     event: Faculty Development Programme on Scientific Writing using LaTeX, BGSBU, Rajouri, Jammu and Kashmir, India
+    short: FDP on Scientific Writing using LaTeX, BGSBU Rajouri
     url: https://news.statetimes.in/fdp-on-scientific-writing-using-latex-concludes-at-bgsbu/
   - date: Mar 2018
     role: Invited speaker
     kind: talk
     event: Scientific Writing using LaTeX, Technical Development Program by the SPIE Student Chapter, Department of Electronics Engineering, IIT (ISM) Dhanbad, India
+    short: LaTeX Technical Development Program, SPIE Student Chapter, IIT (ISM) Dhanbad
 
 service:
   - date: Oct 2026
     role: PC member
     kind: pc
     event: 26th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2027), Hanoi, Vietnam
+    short: AAMAS 2027, Hanoi, Vietnam
   - date: Jun 2026
     role: PC member
     kind: pc
     event: Agentic Software Engineering (SE 3.0), co-located with ACM KDD 2026, Jeju Island, South Korea
+    short: SE 3.0 Workshop @ ACM KDD 2026, Jeju Island, South Korea
     url: https://agent-se.github.io/
   - date: Nov 2024
     role: Technical and advisory committee
     kind: pc
     event: 2nd International Conference on Artificial Intelligence, Machine Learning & Intelligent Systems (ICAMS 2025), NIT Hamirpur, India
+    short: ICAMS 2025, NIT Hamirpur, India
     url: https://sites.google.com/nith.ac.in/icams2025/home
   - date: Sep 2024
     role: Session chair
     kind: chair
     event: International Conference on Computing, Communication and Learning (COCOLE 2024), NIT Warangal, India
+    short: COCOLE 2024, NIT Warangal, India
     url: https://ic-cocole.in/cocole2024/
   - date: Aug 2022
     role: Publicity chair
     kind: chair
     event: International Conference on Computing, Communication and Learning (COCOLE 2022), NIT Warangal, India
+    short: COCOLE 2022, NIT Warangal, India
     url: https://ic-cocole.in/cocole2022/
   - date: Mar 2021
     role: Publicity co-chair
     kind: chair
     event: 15th Innovations in Software Engineering Conference (ISEC 2022), DA-IICT Gandhinagar, India
+    short: ISEC 2022, DA-IICT Gandhinagar, India
     url: https://isoft.acm.org/isec2022/
   - date: Nov 2016
     role: Guest editor
     kind: editor
     event: Special Issue on Scalable Computing for Knowledge Discovery, International Journal of Knowledge Discovery in Bioinformatics (IJKDB), IGI Global
+    short: Special Issue on Scalable Computing for Knowledge Discovery, IJKDB (IGI Global)
 
 volunteering:
   - date: Jan 2020
@@ -81,82 +94,100 @@ volunteering:
     role: Student volunteer
     kind: volunteer
     event: 3rd IEEE International Conference on Recent Advances in Information Technology (RAIT 2016), Dhanbad, India
+    short: RAIT 2016, Dhanbad, India
   - date: Mar 2014
     role: Student volunteer
     kind: volunteer
     event: 2nd International Conference on Recent Advances in Information Technology (RAIT 2014), Dhanbad, India
+    short: RAIT 2014, Dhanbad, India
   - date: Feb 2011
     role: Student volunteer
     kind: volunteer
     event: 7th International Conference on Distributed Computing and Information Technology (ICDCIT 2011), Bhubaneswar, India
+    short: ICDCIT 2011, Bhubaneswar, India
 
 conference_reviewing:
   - date: Sep 2026
     role: External reviewer
     kind: review
     event: International Conference on Artificial Intelligence, Computer, Data Sciences and Applications, Rio de Janeiro, Brazil
+    short: Conf. on AI, Computer, Data Sciences and Applications, Rio de Janeiro, Brazil
   - date: Jan 2026
     role: Reviewer
     kind: review
     event: International Conference on Frontiers in Advanced Computing and Emerging Intelligent Technologies (FACEIT 2026), NIT Warangal, India
+    short: FACEIT 2026, NIT Warangal, India
     url: https://ic-faceit.in/
   - date: Aug 2025
     role: Invited reviewer
     kind: review
     event: International Conference on Cyber Security and Artificial Intelligence (ICCSAI 2025), Kolkata, India
+    short: ICCSAI 2025, Kolkata, India
   - date: Aug 2025
     role: Invited reviewer
     kind: review
     event: International Conference on Artificial Intelligence and Emerging Technologies (ICAIET 2025), XIM University, Bhubaneswar, India
+    short: ICAIET 2025, XIM University, Bhubaneswar, India
     url: https://scse.xim.edu.in/news-events/icaiet-2025/
   - date: Jul 2025
     role: Invited reviewer
     kind: review
     event: 1st International Conference on Power and Intelligent Control Systems (PICS 2025), NIT Hamirpur, India
+    short: PICS 2025, NIT Hamirpur, India
   - date: Mar 2025
     role: Invited reviewer
     kind: review
     event: 6th International Conference on Recent Advances in Information Technology (RAIT 2025), IIT (ISM) Dhanbad, India
+    short: RAIT 2025, IIT (ISM) Dhanbad, India
   - date: Feb 2025
     role: Invited reviewer
     kind: review
     event: 1st International Conference on Smart and Sustainable Developments in Electrical Engineering (SSDEE 2025), IIT (ISM) Dhanbad, India
+    short: SSDEE 2025, IIT (ISM) Dhanbad, India
     url: https://people.iitism.ac.in/~ssdee-2025/
   - date: Feb 2025
     role: Reviewer
     kind: review
     event: 2nd International Conference on Artificial Intelligence, Machine Learning & Intelligent Systems (ICAMS 2025), NIT Hamirpur, India
+    short: ICAMS 2025, NIT Hamirpur, India
     url: https://sites.google.com/nith.ac.in/icams2025/home
   - date: Jan 2025
     role: Reviewer
     kind: review
     event: 6th International Conference on Advances in Distributed Computing and Machine Learning (ICADCML 2025), NTUST, Taiwan
+    short: ICADCML 2025, NTUST, Taiwan
     url: https://www.icadcml.org/
   - date: Mar 2024
     role: Reviewer
     kind: review
     event: International Conference on Cognitive, Green and Ubiquitous Computing (ICCGU 2024), C. V. Raman Global University, Bhubaneswar, India
+    short: ICCGU 2024, C. V. Raman Global University, Bhubaneswar, India
     url: https://www.ic-cgu.co.in/Ic_Cgu_2024.php
   - date: Jul 2023
     role: Sub-reviewer
     kind: review
     event: 20th IEEE India Council International Conference (INDICON 2023), Warangal, India
+    short: INDICON 2023, Warangal, India
   - date: Aug 2022
     role: Sub-reviewer
     kind: review
     event: 3rd International Conference on Advances in Distributed Computing and Machine Learning (ICADCML 2022), NIT Warangal, India
+    short: ICADCML 2022, NIT Warangal, India
   - date: Feb 2021
     role: Sub-reviewer
     kind: review
     event: International Conference on VLSI & Microwave and Wireless Technologies (ICVMWT 2021), Prayagraj, India
+    short: ICVMWT 2021, Prayagraj, India
   - date: Dec 2015
     role: Invited reviewer
     kind: review
     event: 3rd IEEE International Conference on Computing for Sustainable Global Development (INDIACom), New Delhi, India
+    short: IEEE INDIACom 2015, New Delhi, India
   - date: Jun 2014
     role: External reviewer
     kind: review
     event: 2nd IEEE International Conference on Systems and Informatics (ICSAI 2014), Shanghai, China
+    short: ICSAI 2014, Shanghai, China
 
 memberships:
   - role: Senior Member

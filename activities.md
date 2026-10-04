@@ -6,10 +6,10 @@ title_right: act-filter.html
 ---
 {% assign A = site.data.activities %}
 <div class="act-stats">
-  <div class="stat"><b>{{ A.talks | size }}</b><span>Invited talks</span></div>
-  <div class="stat"><b>{{ A.service | size }}</b><span>Committee and chair roles</span></div>
-  <div class="stat"><b>{{ site.data.reviewer | size }}</b><span>Journals reviewed</span></div>
-  <div class="stat"><b>{{ A.conference_reviewing | size }}</b><span>Conferences reviewed</span></div>
+  <a class="stat" href="#talks"><b>{{ A.talks | size }}</b><span>Invited talks</span></a>
+  <a class="stat" href="#service"><b>{{ A.service | size }}</b><span>Committee and chair roles</span></a>
+  <a class="stat" href="#reviewing"><b>{{ site.data.reviewer | size }}</b><span>Journals reviewed</span></a>
+  <a class="stat" href="#reviewing"><b>{{ A.conference_reviewing | size }}</b><span>Conferences reviewed</span></a>
 </div>
 
 <div class="act-sec" id="talks" markdown="1">
@@ -52,7 +52,7 @@ title_right: act-filter.html
 </div>
 
 #### Conferences
-{% include act-timeline.html items=A.conference_reviewing %}
+{% include act-timeline.html items=A.conference_reviewing older_than=2024 %}
 
 </div>
 

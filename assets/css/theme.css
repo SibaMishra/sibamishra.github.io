@@ -128,3 +128,41 @@ html[data-theme="dark"] .mem-pill{border-color:rgba(255,255,255,.3)}
 html[data-theme="dark"] .course{border-color:rgba(255,255,255,.15)}
 html[data-theme="dark"] .course-meta{color:#aaa}
 .tl-photo img{display:block;max-width:280px;width:100%;margin:8px 0 2px;border-radius:6px;border:1px solid rgba(0,0,0,.12)}
+
+/* 4: clickable summary tiles */
+a.stat{display:block;color:inherit !important;text-decoration:none !important;border-bottom-width:1px;transition:border-color .15s,background .15s}
+a.stat:hover{border-color:#534ab7 !important}
+a.stat.is-on{border-color:#534ab7 !important;box-shadow:inset 0 -3px 0 #534ab7}
+html[data-theme="dark"] a.stat:hover,html[data-theme="dark"] a.stat.is-on{border-color:#afa9ec !important}
+html[data-theme="dark"] a.stat.is-on{box-shadow:inset 0 -3px 0 #afa9ec}
+
+/* 5: show older */
+.tl.tl-collapsed .tl-old{display:none}
+.tl-more{margin:-.6em 0 1.5em 26px;font-size:13px;padding:5px 12px;border-radius:14px;border:1px solid rgba(0,0,0,.25);background:transparent;color:#222;cursor:pointer}
+.tl-more:hover{background:rgba(0,0,0,.06)}
+html[data-theme="dark"] .tl-more{color:#ececec;border-color:rgba(255,255,255,.3)}
+.tl-event[title]{cursor:help}
+.tl-event a{cursor:pointer}
+
+/* 7: cleaner Teaching Assistantships table */
+.act-sec table.mytable2,.act-sec table.mytable2 th,.act-sec table.mytable2 td{border:0 !important}
+.act-sec table.mytable2{width:100%;border-collapse:collapse;margin:.4em 0 1.5em;font-size:15px}
+.act-sec table.mytable2 th{text-align:left;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:#666;padding:6px 10px 6px 0;border-bottom:2px solid rgba(0,0,0,.15) !important}
+.act-sec table.mytable2 td{padding:8px 10px 8px 0;border-bottom:1px solid rgba(0,0,0,.08) !important;vertical-align:top;line-height:1.45}
+.act-sec table.mytable2 td:first-child{white-space:nowrap;color:#777;font-size:14px;width:1%}
+html[data-theme="dark"] .act-sec table.mytable2 th{color:#aaa;border-bottom-color:rgba(255,255,255,.2) !important}
+html[data-theme="dark"] .act-sec table.mytable2 td{border-bottom-color:rgba(255,255,255,.1) !important}
+html[data-theme="dark"] .act-sec table.mytable2 td:first-child{color:#aaa}
+
+/* 8: remove the thick black band under the menu */
+#main{border-top:0 !important}
+
+/* 9: photo and contact links on phones (homepage) */
+@media (max-width: 599px){
+  body.is-home .article-author-side{display:flex;align-items:center;gap:14px;margin:0 32px 1.2em;padding:0 0 1em;border-bottom:1px solid rgba(0,0,0,.1)}
+  body.is-home .article-author-side>div{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  body.is-home .article-author-side .bio-photo{width:84px;height:84px;object-fit:cover;border-radius:50% !important;margin:0;opacity:1}
+  body.is-home .article-author-side p:empty{display:none}
+  body.is-home .article-author-side .author-social{display:inline-block;margin:0 12px 0 0;font-size:15px}
+  html[data-theme="dark"] body.is-home .article-author-side{border-bottom-color:rgba(255,255,255,.12)}
+}
