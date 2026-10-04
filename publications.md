@@ -14,6 +14,8 @@ modified: 9-20-20
 
 * Padma Charan Sahu, Bibhu Prasad, Ratnakar Dash, Debendra Muduli, Suddhendu DasMahapatra, <u>Siba Mishra</u>, and Sourav Parija. Apr. 2026. **An Explainable Grey Wolf Optimized Extreme Learning Machine Framework for Modulation Classification in Cloud Environment**. *In: Scientific Reports* 16.1, p. 19295. <a target="_blank" href="https://doi.org/10.1038/s41598-026-49723-5"><span class="ai ai-doi-square ai-lg zoom" style="color:#000000" aria-hidden="true"></span></a>
 
+* Sanjaya Kumar Panda, Sankalp Dubey, and <u>Siba Mishra</u>. Oct. 2025. **Efficient Task Scheduling Algorithms for Decentralized Large Language Model Serving**. *In: Proceedings of the IEEE Region 10 Conference (TENCON'2025), Kota Kinabalu, Sabah, Malaysia*, pp. 1023–1027.
+
 * <u>Siba Mishra</u>, Arpit Sharma. Feb. 2021. **A Generalized Semantic Filter for Glossary Term Extraction from Large-Sized Software Requirements**. *In: Proceedings of the 14th Innovations in Software Engineering Conference (Formerly Known as India Software Engineering Conference) (ISEC'2021), Bhubaneswar, India*, Article 4, pp. 1-9. <a target="_blank" href="https://doi.org/10.1145/3452383.3452387"><span class="ai ai-doi-square ai-lg zoom" style="color:#000000" aria-hidden="true"></span></a> 
 
 * <u>Siba Mishra</u>, Arpit Sharma. Feb. 2021. **Crawling Wikipedia Pages to Train Word Embeddings Model for Software Engineering Domain**. *In: Proceedings of the 14th Innovations in Software Engineering Conference (Formerly Known as India Software Engineering Conference) (ISEC'2021), Bhubaneswar, India*, Article 18, pp. 1-5. <a target="_blank" href="https://doi.org/10.1145/3452383.3452401"><span class="ai ai-doi-square ai-lg zoom" style="color:#000000" aria-hidden="true"></span></a> 
