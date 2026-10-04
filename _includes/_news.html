@@ -3,7 +3,7 @@
   {% if site.news  %}
     <div class="mytable1-responsive">
       <table class="mytable1">
-      {% assign news = site.news | reverse %}
+      {% assign news = site.news | sort: 'date' | reverse %}
       {% for item in news limit: site.news_limit %}
         <tr>
           <th scope="row"><small>{{ item.date | date: "%b, %Y" }}</small></th>
