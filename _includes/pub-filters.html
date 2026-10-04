@@ -1,0 +1,17 @@
+{% assign years = site.data.publications | map: 'year' | uniq %}
+<div class="pub-filters">
+  <label class="pub-field"><span class="pub-label">Year</span>
+    <select id="pub-year" class="pub-select">
+      {% for y in years %}<option value="{{ y }}">{{ y }}</option>{% endfor %}
+      <option value="all">All years</option>
+    </select>
+  </label>
+  <label class="pub-field"><span class="pub-label">Type</span>
+    <select id="pub-type" class="pub-select">
+      <option value="all">All types</option>
+      <option value="journal">Journal</option>
+      <option value="conference">Conference</option>
+      <option value="patent">Patent</option>
+    </select>
+  </label>
+</div>

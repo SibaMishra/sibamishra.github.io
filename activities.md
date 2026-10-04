@@ -1,17 +1,13 @@
 ---
 layout: page
-title: Professional Affiliations
+title: Activities
 permalink: /activities/
+title_right: act-filter.html
 ---
----
-<ol>
-<li><strong>Professional Member</strong>. Association for Computing Machinery (ACM). </li>
-<li><strong>Member</strong>. India SOFTware Engineering community (ISOFT). </li>
-<li><strong>Senior Member</strong>. Institute of Electrical and Electronics Engineers (IEEE). </li>
-<li><strong>Member</strong>. Computer Science and Engineering (CSE) Society, IIT(ISM) Dhanbad. </li>
-</ol>{: style="text-align: justify !important;text-justify: inter-word"}
 
-# Invited Talks
+<div class="act-sec" id="talks" markdown="1">
+
+## Invited Talks
 ---
 - **Expert Talk**: "<span class="notranslate">Unlocking Prompt Engineering from Tokens to RAG</span>". IEEE Computer Society Chapter, Bhubaneswar Section, India. *(Oct 2026)*
 - **Resource Person**: Online E & ICT Faculty Development Programme on Large Language Models for Generative AI: Foundations, Design and Applications (LLMGAI), NIT Warangal, India. *(Sep 2026)*
@@ -21,8 +17,41 @@ permalink: /activities/
 - **Invited Speaker**: Scientific Writing using LaTeX, a Technical Development Program sponsored by the SPIE Student Chapter, Department of Electronics Engineering, IIT (ISM) Dhanbad, India. *(Mar 2018)*
 {: style="text-align: justify !important;text-justify: inter-word"}
 
-# Journal Reviewer
+</div>
+
+<div class="act-sec" id="service" markdown="1">
+
+## Professional Service
 ---
+
+#### Program Committee, Chairs and Editorial Roles
+
+- **Program Committee Member**. 26th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2027), Hanoi, Vietnam. *(2026)*
+- **Program Committee Member**. Agentic Software Engineering (SE 3.0), co-located with ACM KDD 2026, Jeju Island, South Korea. *(2026)*
+- **Technical and Advisory Committee**. 2nd International Conference on Artificial Intelligence, Machine Learning & Intelligent Systems (ICAMS 2025), NIT Hamirpur, India. *(2024)*
+- **Session Chair**. International Conference on Computing, Communication and Learning (COCOLE 2024), NIT Warangal, India. *(2024)*
+- **Publicity Chair**. International Conference on Computing, Communication and Learning (COCOLE 2022), NIT Warangal, India. *(2022)*
+- **Publicity Co-Chair**. 15th Innovations in Software Engineering Conference (ISEC 2022), DA-IICT Gandhinagar, India. *(2021)*
+- **Guest Editor**. Special Issue on Scalable Computing for Knowledge Discovery, International Journal of Knowledge Discovery in Bioinformatics (IJKDB), IGI Global. *(2016)*
+{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
+
+#### Volunteering
+
+- **Volunteer**. The Fourth Paradigm: From Data to Discovery, Bhopal, India. *(2020)*
+- **Student Volunteer**. 3rd IEEE International Conference on Recent Advances in Information Technology (RAIT 2016), Dhanbad, India. *(2016)*
+- **Student Volunteer**. 2nd International Conference on Recent Advances in Information Technology (RAIT 2014), Dhanbad, India. *(2014)*
+- **Student Volunteer**. 7th International Conference on Distributed Computing and Information Technology (ICDCIT 2011), Bhubaneswar, India. *(2011)*
+{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
+
+</div>
+
+<div class="act-sec" id="reviewing" markdown="1">
+
+## Reviewing
+---
+
+#### Journals
+
 <style>
 .rv-badges{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 1.5em}
 .rv-badge{display:inline-flex;font-size:13px;line-height:1.4;border-radius:4px;overflow:hidden;text-decoration:none !important;border:1px solid rgba(0,0,0,.12)}
@@ -37,21 +66,7 @@ permalink: /activities/
 {% endfor %}
 </div>
 
-# Professional Activities
----
-
-#### Program Committee, Chairs and Editorial Roles
-
-- **Program Committee Member**. 26th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2027), Hanoi, Vietnam. *(2026)*
-- **Program Committee Member**. Agentic Software Engineering (SE 3.0), co-located with ACM KDD 2026, Jeju Island, South Korea. *(2026)*
-- **Technical and Advisory Committee**. 2nd International Conference on Artificial Intelligence, Machine Learning & Intelligent Systems (ICAMS 2025), NIT Hamirpur, India. *(2024)*
-- **Session Chair**. International Conference on Computing, Communication and Learning (COCOLE 2024), NIT Warangal, India. *(2024)*
-- **Publicity Chair**. International Conference on Computing, Communication and Learning (COCOLE 2022), NIT Warangal, India. *(2022)*
-- **Publicity Co-Chair**. 15th Innovations in Software Engineering Conference (ISEC 2022), DA-IICT Gandhinagar, India. *(2021)*
-- **Guest Editor**. Special Issue on Scalable Computing for Knowledge Discovery, International Journal of Knowledge Discovery in Bioinformatics (IJKDB), IGI Global. *(2016)*
-{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
-
-#### Conference Reviewer
+#### Conferences
 
 - **External Reviewer**. International Conference on Artificial Intelligence, Computer, Data Sciences and Applications, Rio de Janeiro, Brazil. *(2026)*
 - **Reviewer**. International Conference on Frontiers in Advanced Computing and Emerging Intelligent Technologies (FACEIT 2026), NIT Warangal, India. *(2026)*
@@ -70,15 +85,27 @@ permalink: /activities/
 - **External Reviewer**. 2nd IEEE International Conference on Systems and Informatics (ICSAI 2014), Shanghai, China. *(2014)*
 {: .notranslate style="text-align: justify !important;text-justify: inter-word"}
 
-#### Volunteering
+</div>
 
-- **Volunteer**. The Fourth Paradigm: From Data to Discovery, Bhopal, India. *(2020)*
-- **Student Volunteer**. 3rd IEEE International Conference on Recent Advances in Information Technology (RAIT 2016), Dhanbad, India. *(2016)*
-- **Student Volunteer**. 2nd International Conference on Recent Advances in Information Technology (RAIT 2014), Dhanbad, India. *(2014)*
-- **Student Volunteer**. 7th International Conference on Distributed Computing and Information Technology (ICDCIT 2011), Bhubaneswar, India. *(2011)*
-{: .notranslate style="text-align: justify !important;text-justify: inter-word"}
+<div class="act-sec" id="memberships" markdown="1">
 
-# Teaching Assistantships
+## Professional Memberships
+---
+- **Senior Member**. Institute of Electrical and Electronics Engineers (IEEE). *(2025 – present)*
+- **Professional Member**. Association for Computing Machinery (ACM). *(2020 – present)*
+- **Member**. Internet Society (ISOC). *(2016 – present)*
+- **Student Member**. Advanced Computing & Communication Society (ACCS). *(2016 – present)*
+- **Member**. India SOFTware Engineering community (ISOFT). *(2015 – present)*
+- **Member**. International Association of Engineers (IAENG). *(2015 – present)*
+- **Member**. Computer Science Teachers Association (CSTA). *(2015 – present)*
+{: style="text-align: justify !important;text-justify: inter-word"}
+
+</div>
+
+<div class="act-sec" id="teaching" markdown="1">
+
+## Teaching Assistantships
+---
 
 {:.mytable2}
 | Semester     | Course Name |                       
@@ -90,6 +117,6 @@ permalink: /activities/
 | Winter-16    | C Programming Lab at IIT(ISM), Dhanbad               | 
 | Monsoon-15   | Software Engineering Lab at IIT(ISM), Dhanbad      | 
 | Winter-14    | Algorithm Design and Analysis Lab at IIT(ISM), Dhanbad| 
-| Monsoon-13   | Data Structures Lab at IIT(ISM), Dhanbad   |  
+| Monsoon-13   | Data Structures Lab at IIT(ISM), Dhanbad   |
 
-<small> For complete list, please visit my <a target="_blank" href="https://sibamishra.github.io/assets/cv/SIBA_CV.pdf"><span style="text-align:right;font-size:15px;text-color:black;"></span><u>CV</u></a>.</small>
+</div>

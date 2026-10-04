@@ -74,3 +74,9 @@ html[data-theme="dark"] .pub-list li{border-bottom-color:rgba(255,255,255,.12)}
 html[data-theme="dark"] .pub-tag-journal{background:#0c447c;color:#b5d4f4}
 html[data-theme="dark"] .pub-tag-conference{background:#085041;color:#9fe1cb}
 html[data-theme="dark"] .pub-tag-patent{background:#633806;color:#fac775}
+
+/* Page title with controls on the right (Publications, Activities) */
+.page-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 20px}
+.page-head h1{margin-right:auto}
+.page-head .pub-filters{margin:0}
+.act-sec[hidden]{display:none}

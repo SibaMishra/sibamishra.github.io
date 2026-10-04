@@ -21,7 +21,7 @@
     </div> 
      
   <article class="page">
-    <h1>{{ page.title }}</h1>
+    {% if page.title_right %}<div class="page-head"><h1>{{ page.title }}</h1>{% include {{ page.title_right }} %}</div>{% else %}<h1>{{ page.title }}</h1>{% endif %}
     <div class="article-wrap">
       {{ content }}
       {% if page.share != false %}

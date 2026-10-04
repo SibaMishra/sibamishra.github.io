@@ -1,0 +1,25 @@
+<div class="pub-filters act-filter">
+  <label class="pub-field"><span class="pub-label">Show</span>
+    <select id="act-select" class="pub-select">
+      <option value="talks">Invited Talks</option>
+      <option value="service">Professional Service</option>
+      <option value="reviewing">Reviewing</option>
+      <option value="memberships">Memberships</option>
+      <option value="teaching">Teaching</option>
+    </select>
+  </label>
+</div>
+<script>
+(function(){
+  function go(){
+    var sel=document.getElementById('act-select'); if(!sel) return;
+    var secs=[].slice.call(document.querySelectorAll('.act-sec'));
+    var h=location.hash.replace('#','');
+    if(h&&document.getElementById(h)&&document.getElementById(h).classList.contains('act-sec')) sel.value=h;
+    function show(){secs.forEach(function(d){d.hidden=d.id!==sel.value;});}
+    sel.addEventListener('change',function(){show();if(history.replaceState)history.replaceState(null,'','#'+sel.value);});
+    show();
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();
+})();
+</script>

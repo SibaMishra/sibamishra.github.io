@@ -3,27 +3,11 @@ layout: page
 permalink: /publications/
 title: Publications and Patents
 tags: [about, publications, patents]
+title_right: pub-filters.html
 ---
 
 {% assign pubs = site.data.publications %}
 {% assign years = pubs | map: 'year' | uniq %}
-<div class="pub-filters">
-  <label class="pub-field"><span class="pub-label">Year</span>
-    <select id="pub-year" class="pub-select">
-      {% for y in years %}<option value="{{ y }}">{{ y }}</option>{% endfor %}
-      <option value="all">All years</option>
-    </select>
-  </label>
-  <label class="pub-field"><span class="pub-label">Type</span>
-    <select id="pub-type" class="pub-select">
-      <option value="all">All types</option>
-      <option value="journal">Journal</option>
-      <option value="conference">Conference</option>
-      <option value="patent">Patent</option>
-    </select>
-  </label>
-</div>
-
 <p class="pub-count" id="pub-count"></p>
 
 <ul class="pub-list notranslate" id="pub-list">
